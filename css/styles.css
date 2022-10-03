@@ -5,6 +5,7 @@
   --background-color-header: #ffffff;
   --background-color-body: #f5f5f5;
   --background-colot-footer: #2f303a;
+
 }
 
 body {
@@ -24,13 +25,10 @@ body {
   letter-spacing: 0.03em;
   text-decoration: none;
 }
+
 .logo-text {
   color: #2196f3;
-  font-family: "Raleway";
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
+  
 }
 
 /* .list - клас для вибіркового зняття маркерів списку */
@@ -51,7 +49,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--title-text-color);
+  color: #757575;
 }
 
 .site-nav:hover,
@@ -144,6 +142,8 @@ body {
 
 .list-button {
   cursor: pointer;
+  font-family: 'Roboto';
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -182,9 +182,19 @@ body {
 .footer {
   background-color: var(--background-colot-footer);
 }
-
+.logo-down{
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+text-decoration: none;
+}
 .adress {
   font-size: 14px;
+  font-style: normal;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #ffffff;
@@ -192,6 +202,7 @@ body {
 
 .contacts-down {
   font-size: 14px;
+  font-style: normal;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
